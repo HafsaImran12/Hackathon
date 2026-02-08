@@ -5,16 +5,11 @@
     <title>Hackathon</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="./bootstrap.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
   </head>
   <body>
+
     <!-- Navbar Start-->
+
     <nav class="navbar navbar-expand-lg py-2">
       <div class="container">
         <a class="navbar-brand" href="#"
@@ -37,7 +32,7 @@
         >
           <ul class="navbar-nav mb-2 mb-lg-0 gap-3">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">About</a>
+              <a class="nav-link" aria-current="page" href="#">About</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Features</a>
@@ -61,12 +56,15 @@
         </div>
       </div>
     </nav>
+
     <!-- Hero Secton Start -->
+
     <div class="container col-xxl-8 px-4 py-5">
-      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-        <div class="col-10 col-sm-8 col-lg-6">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5 justify-content-center">
+        <div class="col-12 col-sm-8 col-lg-6 position-relative">
+            <img src="./images/bg shade.png" alt="Background" width="500px" height="600px" class="position-absolute bg-img">
           <img
-            src="./images/iMac.png"
+            src="./images/iMac 24 inch.png"
             class="d-block mx-lg-auto img-fluid"
             alt="Bootstrap Themes"
             width="700"
@@ -74,12 +72,12 @@
             loading="lazy"
           />
         </div>
-        <div class="col-lg-6">
-          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">
+        <div class="col-lg-6 ps-2">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-4 mb-lg-5">
             Work <span class="purple-text">Remotely</span> in your home or any
             other places with <span class="orange-text">Figma</span>
           </h1>
-          <p class="lead">
+          <p class="lead py-2 py-lg-5">
             Want to start your career in design? Join the Figma community —
             improve your skills and knowledge.
           </p>
@@ -93,7 +91,7 @@
                 id="inputemail2"
                 placeholder="Enter your email Address"
                 />
-                <button type="submit" class="btn rounded-5  text-white position-absolute end-0 top-0 button">
+                <button type="submit" class="btn rounded-5 py-0 text-uppercase text-white position-absolute hero-btn button">
                     Subscribe
                 </button>
           </div>
