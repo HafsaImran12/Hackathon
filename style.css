@@ -24,7 +24,7 @@ body {
     var(--pink-color),
     var(--purple-color)
   ) !important;
-  box-shadow: 0px 6px 12px -6px #18274b1f !important;
+  box-shadow: 0px 6px 12px -6px #18274b3d !important;
 }
 .purple-text {
   color: var(--purple-text);
@@ -33,7 +33,7 @@ body {
   color: var(--orange-text);
 }
 .bg-img {
-  top: -100px;
+  top: -95px;
   transform: rotate(-10deg);
   z-index: -1;
 }
